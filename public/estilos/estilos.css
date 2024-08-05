@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(274, 100%, 97%);
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.titulo{
+    font-size: 50px;
+    font-family: "Anton SC", sans-serif;
+    letter-spacing: 2px;
+    color: rgba(33,150,243,1);
+}
+.titulo2{
+    font-family: "Mulish", sans-serif;
+    font-size: 5cqb;
+    font-weight: 300;
+    color: rgb(2, 91, 164);
+}
+img{
+    width: 200px;
+    padding: 20px;
+}
+#fecha{
+    font-family: "Mulish", sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+    color: rgb(1, 21, 37);
+}
+.titulo4{
+    font-family: "Mulish", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0, 52, 94);
+    padding: 10px;
+}
+.titulo3{
+    font-family: "Mulish", sans-serif;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(0, 128, 232);
+}
+input{
+    margin: 20px;
+    padding: 5px;
+    font-size: 25px;
+    color: rgba(8, 26, 26);
+
+}
+.container{
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    width: 700px;
+}
+.botones{
+    display: flex;
+    padding: 5px;
+    
+}
+.entrada{
+    font-family: "Mulish", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 89, 255);
+    width: 100%;
+    padding: 15px 25px;
+}
+.salida{
+    font-family: "Mulish", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(205, 0, 0);
+    width: 100%;
+    padding: 15px 25px;
+}
